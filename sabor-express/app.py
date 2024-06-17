@@ -1,8 +1,27 @@
-print('Sabor Express!\n')
+print("""
+░██████╗░█████╗░██████╗░░█████╗░██████╗░  ███████╗██╗░░██╗██████╗░██████╗░███████╗░██████╗░██████╗
+██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔══██╗  ██╔════╝╚██╗██╔╝██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝
+╚█████╗░███████║██████╦╝██║░░██║██████╔╝  █████╗░░░╚███╔╝░██████╔╝██████╔╝█████╗░░╚█████╗░╚█████╗░
+░╚═══██╗██╔══██║██╔══██╗██║░░██║██╔══██╗  ██╔══╝░░░██╔██╗░██╔═══╝░██╔══██╗██╔══╝░░░╚═══██╗░╚═══██╗
+██████╔╝██║░░██║██████╦╝╚█████╔╝██║░░██║  ███████╗██╔╝╚██╗██║░░░░░██║░░██║███████╗██████╔╝██████╔╝
+╚═════╝░╚═╝░░╚═╝╚═════╝░░╚════╝░╚═╝░░╚═╝  ╚══════╝╚═╝░░╚═╝╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═════╝░╚═════╝░
+""")
 
 print('1. Cadastar restaurante')    
 print('2. Listar restaurantes')    
 print('3. ativar restaurante')    
-print('1. Sair ')    
+print('4. Sair\n')
 
+opcao_escolhida = int(input('Escolha uma opção: '))
+# opcao_escolhida = int(opcao_escolhida)
+
+
+if opcao_escolhida == 1:
+    print('Cadastrar restaurante')
+elif opcao_escolhida == 2:
+    print('Listar restaurantes')
+elif opcao_escolhida == 3:
+    print('Ativar restaurante')
+else:
+    print('Saindo...')    
 
